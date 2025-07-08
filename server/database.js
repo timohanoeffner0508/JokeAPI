@@ -37,16 +37,16 @@ function getAllJokes(callback) {
         }
     });
 }
-
+/*
 function deleteAllJokes(callback) {
     db.run('DELETE FROM jokes', (err) => {
 
     })
 }
+*/
 module.exports = {
     db,
     insertRandomJoke,
     getAllJokes,
-    deleteAllJokes,
 };
 
